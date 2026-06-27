@@ -2,6 +2,7 @@
 
 Project Structure
 
+
 research-chatbot/
 ├── backend/
 │   ├── main.py                  # FastAPI app entry point
