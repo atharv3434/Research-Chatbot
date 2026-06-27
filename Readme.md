@@ -58,12 +58,12 @@ API Endpoints
 MethodPathDescriptionPOST/chatSend a message, get a responseGET/sessions/{id}Retrieve session historyDELETE/sessions/{id}Clear a sessionGET/sessions/{id}/topicsGet extracted research topicsGET/healthHealth check
 
 
-Environment Variables
+## Environment Variables
 
 VariableDefaultDescriptionANTHROPIC_API_KEY—Required. Your Anthropic API keyMAX_CONTEXT_TOKENS6000Max tokens to keep in context windowMAX_HISTORY_TURNS20Max conversation turns before pruningSESSION_TTL_HOURS24How long sessions persist on diskSESSIONS_DIR./sessionsDirectory for persisted session files
 
 
-Features
+## Features
 
 
 Multi-turn memory — full conversation history sent with every request
